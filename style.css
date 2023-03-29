@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    padding: 6px;
+    column-gap: 2px;
+}
+
+.decrement, .increment, .reset, .counter{
+    font-size: 20px;
+    padding: 3px 15px;
+}
+
+.counter{
+    border: 2px solid black;
+    padding: 2px 5px;
+}
